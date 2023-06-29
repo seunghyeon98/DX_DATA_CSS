@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- form에서는 ACTION, method, enctype이 중요! -->
+    <!-- action은 처리할 서버의 url -->
+    <!-- method는  -->
+    <form action="regiter" method="get" enctype="multipart/form-data">
+      <!-- name은 서버에서 사용하기 위한 이름 -->
+      <!-- id는 클라이언트에서 사용하기 위한 이름 (유효성 검사시 사용) -->
+      <label>이름:<input type="text" name="name" id="name" /></label>
+      <br />
+      <input name="gender" type="radio" /> 남자
+      <input name="gender" type="radio" checked="checked" /> 여자
+      <button>보내기</button>
+
+      <div>블록</div>
+      <span> 인라인</span>
+      <span> 인라인</span>
+
+      <iframe src="table.html"></iframe>
+      <iframe src="first.html"></iframe>
+
+    </form>
+  </body>
+</html>
